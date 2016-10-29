@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html ng-app="HotspotAngular" ng-controller="ConfiguracoesController">
+<head>
+
+  <!-- Metas Base  -->
+  <base href="/" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link href="assets/img/{{ Configuracoes.favicon }}" rel="icon">
+  <title>{{ Configuracoes.titulo }}</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css?v={{ Configuracoes.versao }}">
+  <link rel="stylesheet" type="text/css" href="bower_components/anim-in-out/css/anim-in-out.css?v={{ Configuracoes.versao }}">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css?v={{ Configuracoes.versao }}">
+  <link rel="stylesheet" type="text/css" href="assets/css/grid.css?v={{ Configuracoes.versao }}">
+  <link rel="stylesheet" type="text/css" href="assets/css/app.css?v={{ Configuracoes.versao }}">
+  <link rel="stylesheet" type="text/css" href="assets/css/temas.css?v={{ Configuracoes.versao }}">
+
+
+</head>
+<body style="background-image: url( {{  Configuracoes.imagem_fundo_site }} );" class="{{ Configuracoes.cor_fundo_site }}">
+
+    <div ng-show="LoadingShow" class="loading {{  Configuracoes.cor_fundo_carregando }}">
+      <div class="sk-cube-grid">
+        <strong class="{{ Configuracoes.cor_texto_carregando }}">Carregando</strong>
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hotspot-logo">
+        <img ng-src="assets/img/{{ Configuracoes.logomarca }}"  />
+      </div>
+      <div class="hotspot-menu">
+        <ul>
+          <li ng-repeat="m in Menu"><a ui-sref="{{ m.link }}" ui-sref-active="active" class="{{ m.tema }}">{{ m.titulo }}</a></li>
+        </ul>
+      </div>
+      <div class="hotspot-corpo">
+        <div ui-view class="anim-in-out anim-fade" data-anim-speed="{{ Configuracoes.velocidade_transicoes }}"></div>
+      </div>
+    </div>
+
+    <div class="text-center footer">
+      <span class="{{ Configuracoes.cor_texto_rodape }}">Copyright 2016 - Desenvolvido por <strong><a href="http://www.tamburipro.com/" target="_blank">TamburiPro.com</a></span>
+    </div>
+
+    <!--  Scripts Base Libs -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/anim-in-out/anim-in-out.js"></script>
+    <script src="bower_components/angular-css/angular-css.min.js"></script>
+
+    <!-- HotspotAngular Scripts -->
+    <script src="core/HotspotAngular.js"></script>
+    <script src="core/Runconfig.js"></script>
+    <script src="core/RoutesConfig.js"></script>
+    <script src="core/EntrarController.js"></script>
+    <script src="core/SobreController.js"></script>
+    <script src="core/PlanosController.js"></script>
+    <script src="core/LocaisController.js"></script>
+    <script src="core/ContatoController.js"></script>
+    <script src="core/ConfiguracoesController.js"></script>
+
+</body>
+</html>

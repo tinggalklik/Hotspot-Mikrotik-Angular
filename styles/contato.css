@@ -1,0 +1,32 @@
+.hotspot-contato-box {
+    position: relative;
+    max-width: 720px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.hotspot-contato-box h4 {
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 5px;
+}
+
+
+.hotspot-contato-box > .hotspot-contato > p {
+    font-size: 14px;
+}
+
+.hotspot-contato-texts strong {
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.hotspot-contato-texts p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.hotspot-contato-texts h1 {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+}

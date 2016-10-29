@@ -1,0 +1,72 @@
+{
+  "configuracoes": {
+    "titulo": "HotspotFast",
+    "versao": 0.1,
+
+    "transicoes": "slide",
+    "velocidade_transicoes": "700",
+
+    "cor_fundo_carregando": "fundo-asphalt",
+    "cor_texto_carregando": "texto-branco",
+
+    "cor_fundo_site": "fundo-auzarin",
+
+    "cor_principal_titulos": "titulo-branco",
+
+    "cor_fundo_corpo": "fundo-asphalt",
+
+    "cor_fundo_campos": "fundo-branco",
+    "cor_texto_campos": "texto-asphalt",
+
+
+    "botao_entrar": "botao-branco",
+    "cor_texto_entrar": "titulo-asphalt",
+    "cor_texto_sobre_nos": "texto-branco-escuro",
+    "cor_texto_locais": "texto-branco-escuro",
+    "cor_texto_telefones": "texto-branco-escuro",
+    "cor_texto_emails": "texto-branco-escuro",
+    "cor_texto_endereco": "texto-branco-escuro",
+    "cor_titulo_contato": "texto-branco-escuro",
+
+    "cor_texto_planos": "texto-branco-escuro",
+    "cor_fundo_plano_titulo": "fundo-branco",
+    "cor_plano_titulo": "texto-asphalt",
+    "cor_preco_titulo": "texto-branco",
+
+    "cor_texto_rodape": "texto-branco",
+
+    "imagem_fundo_site": "",
+    "logomarca": "logo.png",
+    "favicon": "favicon.png",
+    "sobre_nos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+  },
+  "menu": [
+    {
+      "titulo": "Entrar",
+      "link": "entrar",
+      "tema": "botao-branco"
+    },
+    {
+      "titulo": "Sobre",
+      "link": "sobre",
+      "tema": "botao-asphalt"
+    },
+    {
+      "titulo": "Planos",
+      "link": "planos",
+      "tema": "botao-asphalt"
+    },
+    {
+      "titulo": "Locais",
+      "link": "locais",
+      "tema": "botao-asphalt"
+    },
+    {
+      "titulo": "Contato",
+      "link": "contato",
+      "tema": "botao-asphalt"
+    }
+  ]
+}

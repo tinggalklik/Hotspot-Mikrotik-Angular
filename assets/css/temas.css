@@ -1,0 +1,385 @@
+/* ----------------------- TEMA BRANCO ----------------------- */
+/* ----------------------- */
+.botao-branco{
+  color: #666;
+  background-color: #fff;
+}
+.botao-branco:hover{
+  background-color: #eee;
+}
+.botao-branco.active{
+  background-color: #eee;
+}
+/* ---------------------- */
+.fundo-branco{
+  background-color: #fff;
+}
+.fundo-branco-escuro{
+  background-color: #eee;
+}
+/* ---------------------- */
+.titulo-branco{
+  color: #fff;
+}
+.titulo-branco-escuro{
+  color: #eee;
+}
+/* ---------------------- */
+.texto-branco{
+  color: #fff;
+}
+.texto-branco-escuro{
+  color: #eee;
+}
+/* ---------------------- */
+
+
+/* ----------------------- TEMA TURQUOISE ----------------------- */
+/* ----------------------- */
+.botao-turquoise{
+  color: #ffffff;
+  background-color: #1abc9c;
+}
+.botao-turquoise:hover{
+  background-color: #16a085;
+}
+.botao-turquoise.active{
+  background-color: #16a085;
+}
+/* ---------------------- */
+.fundo-turquoise{
+  background-color: #1abc9c;
+}
+.fundo-turquoise-escuro{
+  background-color: #16a085;
+}
+/* ---------------------- */
+.titulo-turquoise{
+  color: #1abc9c;
+}
+.titulo-turquoise-escuro{
+  color: #16a085;
+}
+/* ---------------------- */
+.texto-turquoise{
+  color: #1abc9c;
+}
+.texto-turquoise-escuro{
+  color: #16a085;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA emerald ----------------------- */
+/* ----------------------- */
+.botao-emerald{
+  color: #ffffff;
+  background-color: #2ecc71;
+}
+.botao-emerald:hover{
+  background-color: #27ae60;
+}
+.botao-emerald.active{
+  background-color: #27ae60;
+}
+/* ---------------------- */
+.fundo-emerald{
+  background-color: #2ecc71;
+}
+.fundo-emerald-escuro{
+  background-color: #27ae60;
+}
+/* ---------------------- */
+.titulo-emerald{
+  color: #2ecc71;
+}
+.titulo-emerald-escuro{
+  color: #27ae60;
+}
+/* ---------------------- */
+.texto-emerald{
+  color: #2ecc71;
+}
+.texto-emerald-escuro{
+  color: #27ae60;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA PETER ----------------------- */
+/* ----------------------- */
+.botao-peter{
+  color: #ffffff;
+  background-color: #3498db;
+}
+.botao-peter:hover{
+  background-color: #2980b9;
+}
+.botao-peter.active{
+  background-color: #2980b9;
+}
+/* ---------------------- */
+.fundo-peter{
+  background-color: #3498db;
+}
+.fundo-peter-escuro{
+  background-color: #2980b9;
+}
+/* ---------------------- */
+.titulo-peter{
+  color: #3498db;
+}
+.titulo-peter-escuro{
+  color: #2980b9;
+}
+/* ---------------------- */
+.texto-peter{
+  color: #3498db;
+}
+.texto-peter-escuro{
+  color: #2980b9;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA AMETHYST ----------------------- */
+/* ----------------------- */
+.botao-amethyst{
+  color: #ffffff;
+  background-color: #9b59b6;
+}
+.botao-amethyst:hover{
+  background-color: #8e44ad;
+}
+.botao-amethyst.active{
+  background-color: #8e44ad;
+}
+/* ---------------------- */
+.fundo-amethyst{
+  background-color: #9b59b6;
+}
+.fundo-amethyst-escuro{
+  background-color: #8e44ad;
+}
+/* ---------------------- */
+.titulo-amethyst{
+  color: #9b59b6;
+}
+.titulo-amethyst-escuro{
+  color: #8e44ad;
+}
+/* ---------------------- */
+.texto-amethyst{
+  color: #9b59b6;
+}
+.texto-amethyst-escuro{
+  color: #8e44ad;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA ASPHALT ----------------------- */
+/* ----------------------- */
+.botao-asphalt{
+  color: #ffffff;
+  background-color: #34495e;
+}
+.botao-asphalt:hover{
+  background-color: #2c3e50;
+}
+.botao-asphalt.active{
+  background-color: #2c3e50;
+}
+/* ---------------------- */
+.fundo-asphalt{
+  background-color: #34495e;
+}
+.fundo-asphalt-escuro{
+  background-color: #2c3e50;
+}
+/* ---------------------- */
+.titulo-asphalt{
+  color: #34495e;
+}
+.titulo-asphalt-escuro{
+  color: #2c3e50;
+}
+/* ---------------------- */
+.texto-asphalt{
+  color: #34495e;
+}
+.texto-asphalt-escuro{
+  color: #2c3e50;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA SUN ----------------------- */
+/* ----------------------- */
+.botao-sun{
+  color: #ffffff;
+  background-color: #f1c40f;
+}
+.botao-sun:hover{
+  background-color: #f39c12;
+}
+.botao-sun.active{
+  background-color: #f39c12;
+}
+/* ---------------------- */
+.fundo-sun{
+  background-color: #f1c40f;
+}
+.fundo-sun-escuro{
+  background-color: #f39c12;
+}
+/* ---------------------- */
+.titulo-sun{
+  color: #f1c40f;
+}
+.titulo-sun-escuro{
+  color: #f39c12;
+}
+/* ---------------------- */
+.texto-sun{
+  color: #f1c40f;
+}
+.texto-sun-escuro{
+  color: #f39c12;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA CARROT ----------------------- */
+/* ----------------------- */
+.botao-carrot{
+  color: #ffffff;
+  background-color: #e67e22;
+}
+.botao-carrot:hover{
+  background-color: #d35400;
+}
+.botao-carrot.active{
+  background-color: #d35400;
+}
+/* ---------------------- */
+.fundo-carrot{
+  background-color: #e67e22;
+}
+.fundo-carrot-escuro{
+  background-color: #d35400;
+}
+/* ---------------------- */
+.titulo-carrot{
+  color: #e67e22;
+}
+.titulo-carrot-escuro{
+  color: #d35400;
+}
+/* ---------------------- */
+.texto-carrot{
+  color: #e67e22;
+}
+.texto-carrot-escuro{
+  color: #d35400;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA AUZARIN ----------------------- */
+/* ----------------------- */
+.botao-auzarin{
+  color: #ffffff;
+  background-color: #e74c3c;
+}
+.botao-auzarin:hover{
+  background-color: #c0392b;
+}
+.botao-auzarin.active{
+  background-color: #c0392b;
+}
+/* ---------------------- */
+.fundo-auzarin{
+  background-color: #e74c3c;
+}
+.fundo-auzarin-escuro{
+  background-color: #c0392b;
+}
+/* ---------------------- */
+.titulo-auzarin{
+  color: #e74c3c;
+}
+.titulo-auzarin-escuro{
+  color: #c0392b;
+}
+/* ---------------------- */
+.texto-auzarin{
+  color: #e74c3c;
+}
+.texto-auzarin-escuro{
+  color: #c0392b;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA CLOUDS ----------------------- */
+/* ----------------------- */
+.botao-clouds{
+  color: #ffffff;
+  background-color: #ecf0f1;
+}
+.botao-clouds:hover{
+  background-color: #bdc3c7;
+}
+.botao-clouds.active{
+  background-color: #bdc3c7;
+}
+/* ---------------------- */
+.fundo-clouds{
+  background-color: #e74c3c;
+}
+.fundo-clouds-escuro{
+  background-color: #bdc3c7;
+}
+/* ---------------------- */
+.titulo-clouds{
+  color: #e74c3c;
+}
+.titulo-clouds-escuro{
+  color: #bdc3c7;
+}
+/* ---------------------- */
+.texto-clouds{
+  color: #e74c3c;
+}
+.texto-clouds-escuro{
+  color: #bdc3c7;
+}
+/* ---------------------- */
+
+/* ----------------------- TEMA COMCRETE ----------------------- */
+/* ----------------------- */
+.botao-concrete{
+  color: #ffffff;
+  background-color: #95a5a6;
+}
+.botao-concrete:hover{
+  background-color: #7f8c8d;
+}
+.botao-concrete.active{
+  background-color: #7f8c8d;
+}
+/* ---------------------- */
+.fundo-concrete{
+  background-color: #95a5a6;
+}
+.fundo-concrete-escuro{
+  background-color: #7f8c8d;
+}
+/* ---------------------- */
+.titulo-concrete{
+  color: #95a5a6;
+}
+.titulo-concrete-escuro{
+  color: #7f8c8d;
+}
+/* ---------------------- */
+.texto-concrete{
+  color: #95a5a6;
+}
+.texto-concrete-escuro{
+  color: #7f8c8d;
+}
+/* ---------------------- */

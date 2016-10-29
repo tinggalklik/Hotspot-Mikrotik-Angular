@@ -1,0 +1,38 @@
+{
+  "telefones": [
+    {
+      "operadora": "Tim",
+      "ddd": "75",
+      "numero": "99999-9999"
+    },
+    {
+      "operadora": "Claro",
+      "ddd": "75",
+      "numero": "99999-9999"
+    },
+    {
+      "operadora": "Oi",
+      "ddd": "75",
+      "numero": "99999-9999"
+    }
+  ],
+  "emails": [
+    {
+      "email": "contato@exemplo.com"
+    },
+    {
+      "email": "financeiro@exemplo.com"
+    },
+    {
+      "email": "suporte@exemplo.com"
+    }
+  ],
+  "endereco": {
+    "rua": "Rua Dos Não Sei",
+    "n": "00",
+    "complemento": "Casa",
+    "bairro": "Centro",
+    "cidade": "Cidade dos Anjos - BA"
+  }
+
+}

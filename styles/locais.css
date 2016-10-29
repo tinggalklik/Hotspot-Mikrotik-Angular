@@ -1,0 +1,12 @@
+.hotspot-locais-box {
+    position: relative;
+    max-width: 980px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.local-top {
+    text-align: center;
+    padding: 15px;
+    border-radius: 3px;
+}

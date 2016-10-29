@@ -1,0 +1,32 @@
+<div class="hotspot-main hotspot-contato-box {{  Configuracoes.transicoes == 'zoom' ? 'anim-zoom-out-full' : 'anim-slide-left' }} {{ Configuracoes.cor_fundo_corpo }}">
+  <h4 class="{{ Configuracoes.cor_principal_titulos }}"><i class="fa fa-phone"></i> Contato</h4>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="hotspot-contato-texts">
+        <p class="{{ Configuracoes.cor_texto_telefones }}" ng-repeat="t in Telefones"><strong>{{ t.operadora }}:</strong> ({{ t.ddd }}) {{ t.numero }}</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="hotspot-contato-texts">
+        <p class="{{ Configuracoes.cor_texto_emails }}" ng-repeat="e in Emails">{{ e.email }}</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="hotspot-contato-texts">
+        <p class="{{ Configuracoes.cor_texto_endereco }}">
+          <strong>Cidade:</strong> {{ Endereco.cidade }}  <br />
+          <strong>Rua:</strong> {{ Endereco.rua }}  <br />
+          <strong>Nº:</strong> {{ Endereco.n }} <br />
+          <strong>Complemento:</strong> {{ Endereco.complemento }} <br />
+          <strong>Bairro:</strong> {{ Endereco.bairro }}
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>

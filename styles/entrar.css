@@ -1,0 +1,32 @@
+.hotspot-form-box {
+    position: relative;
+    max-width: 420px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.hotspot-form-box h4 {
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 5px;
+}
+
+.hotspot-form {
+    position: relative;
+}
+
+.hotspot-form > .grupo > input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+}
+
+.hotspot-form > .grupo {
+    margin: 10px 15px;
+
+}
+
+.hotspot-form > .grupo > button {
+    cursor: pointer;
+    top: 10px;
+}

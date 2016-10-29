@@ -1,0 +1,32 @@
+{
+  "planos": [
+    {
+      "titulo": "Plano 01",
+      "preco": "R$ 60,00 / Mês",
+      "velocidade": "10 MB",
+      "suporte": "Não",
+      "contato": "(75) 99999-9999"
+    },
+    {
+      "titulo": "Plano 02",
+      "preco": "R$ 80,00 / Mês",
+      "velocidade": "20 MB",
+      "suporte": "Sim",
+      "contato": "(75) 99999-9999"
+    },
+    {
+      "titulo": "Plano 03",
+      "preco": "R$ 100,00 / Mês",
+      "velocidade": "30 MB",
+      "suporte": "Não",
+      "contato": "(75) 99999-9999"
+    },
+    {
+      "titulo": "Plano 04",
+      "preco": "R$ 120,00 / Mês",
+      "velocidade": "40 MB",
+      "suporte": "Sim",
+      "contato": "(75) 99999-9999"
+    }
+  ]
+}

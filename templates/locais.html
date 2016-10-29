@@ -1,0 +1,13 @@
+<div class="hotspot-locais-box {{  Configuracoes.transicoes == 'zoom' ? 'anim-zoom-out-full' : 'anim-slide-left' }}">
+  <div class="row">
+
+    <div class="col-md-4" ng-repeat="l in Locais">
+      <div class="hotspot-main hotspot-locais {{ Configuracoes.cor_fundo_corpo }}">
+        <div class="local-top {{ Configuracoes.cor_fundo_plano_titulo }}">
+          <span class="{{ Configuracoes.cor_plano_titulo }}">{{ l.local }}</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

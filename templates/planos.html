@@ -1,0 +1,24 @@
+<div class="hotspot-planos-box {{  Configuracoes.transicoes == 'zoom' ? 'anim-zoom-out-full' : 'anim-slide-left' }}">
+
+
+  <div class="row">
+
+    <div class="col-md-3" ng-repeat="p in Planos">
+      <div class="hotspot-main hotspot-planos {{ Configuracoes.cor_fundo_corpo }}">
+        <div class="plano-top {{ Configuracoes.cor_fundo_plano_titulo }}">
+          <span class="{{ Configuracoes.cor_plano_titulo }}">{{ p.titulo }}</span>
+        </div>
+        <div class="plano-body">
+          <span class="{{ Configuracoes.cor_preco_titulo }}">{{ p.preco }}</span>
+          <p class="{{ Configuracoes.cor_texto_planos }}">Velocidade: {{ p.velocidade }}</p>
+          <p class="{{ Configuracoes.cor_texto_planos }}">Suporte: {{ p.suporte }}</p>
+          <p class="{{ Configuracoes.cor_texto_planos }}">{{ p.contato }}</p>
+        </div>
+        <div class="plano-footer">
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
