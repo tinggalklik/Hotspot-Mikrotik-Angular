@@ -4,7 +4,7 @@
     RewriteCond %{REQUEST_FILENAME} -l [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^.*$ - [NC,L]
-    RewriteRule ^(.*) /hotspot/login.html [NC,L]
+    RewriteRule ^(.*) /apps/hotspot-angular-v1/login.html [NC,L]
 </IfModule>
 #Alternate default index page
 DirectoryIndex login.html
