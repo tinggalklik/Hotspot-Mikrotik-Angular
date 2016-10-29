@@ -9,7 +9,8 @@ em arquivos JSON contendo as informações para a população da aplicação. Ap
       Por enquanto essa aplicação ainda não possui as variaveis de funcionamento correto em um sistema mikrotik, os arquivos já
       totalmente pronto para uso em um serividor mikrotik será disponibilizado em breve atraves do site www.tamburipro.com/loja
       
-# DEMO - http://www.tamburipro.com/apps/hotspot-angular-v1/   
+# DEMOSTRAÇÃO
+      http://www.tamburipro.com/apps/hotspot-angular-v1/   
 
 # Aplicação totalmente customizavel atravez de arquivos JSON com as configurações.
   Arquivos
