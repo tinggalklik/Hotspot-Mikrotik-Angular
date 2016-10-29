@@ -3,6 +3,14 @@
 Protótipo da página de login, usado pelo sistema http://www.mikrotik.com. Desenvolvido com Angular V1 - Fazendo uso de requisições
 em arquivos JSON contendo as informações para a população da aplicação. Aplicação de aparencia simples e funcional.
 
+      
+# Algumas notas
+      
+      Por enquanto essa aplicação ainda não possui as variaveis de funcionamento correto em um sistema mikrotik, os arquivos já
+      totalmente pronto para uso em um serividor mikrotik será disponibilizado em breve atraves do site www.tamburipro.com/loja
+      
+# DEMO - http://www.tamburipro.com/apps/hotspot-angular-v1/   
+
 # Aplicação totalmente customizavel atravez de arquivos JSON com as configurações.
   Arquivos
   
@@ -85,13 +93,8 @@ em arquivos JSON contendo as informações para a população da aplicação. Ap
       font-awesome
       anim-in-out
       animate.css
-      
-# Algumas notas
-      
-      Por enquanto essa aplicação ainda não possui as variaveis de funcionamento correto em um sistema mikrotik, os arquivos já totalmente pronto para uso em um serividor mikrotik será disponibilizado em breve atraves do site www.tamburipro.com/loja
 
-
-      
+   
 # IMPORTANTE
   
     Dependendo da localização dos arquivos no servidor, faça as alterações corretas no HEADER do login.html
